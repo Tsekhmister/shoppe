@@ -1,0 +1,33 @@
+.header {
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 62px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #D8D8D8;
+  .logo {
+    width: 158px;
+    height: 40px;
+  }
+  &__menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    &__icon{
+      width: 19px;
+      height: 19px;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      opacity: 0.8;
+      transition: all 0.5s;
+    }
+    a:hover {
+      opacity: 1;
+    }
+  }
+
+}

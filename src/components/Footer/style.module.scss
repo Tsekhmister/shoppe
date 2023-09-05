@@ -1,0 +1,78 @@
+.footer {
+  height: 135px;
+  padding-top: 52px;
+  border-top: 1px solid #D8D8D8;
+  display: flex;
+  gap: 366px;
+
+  &__leftSection {
+    display: flex;
+    flex-direction: column;
+
+    .titles {
+      display: flex;
+      gap: 41px;
+      margin-bottom: 47px;
+
+      h5 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #707070;
+      }
+    }
+
+    .copyright {
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 27px;
+      color: #000000;
+
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+
+  &__rightSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+    gap: 50px;
+
+    input {
+      width: 396px;
+      border: 0;
+      border-bottom: 1px solid #000000;
+      padding: 13px;
+      background: white url(../../assets/arrow.png) right no-repeat;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 27px;
+    }
+
+    input:focus {
+      background: none;
+      outline: none;
+      border-bottom: 1px solid #000000;
+    }
+
+    .socialIcons {
+      display: flex;
+      gap: 29px;
+
+      a {
+        opacity: 0.8;
+        transition: all 0.5s;
+      }
+
+      a:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

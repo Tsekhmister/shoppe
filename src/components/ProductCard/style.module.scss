@@ -1,0 +1,247 @@
+.productCard {
+  display: flex;
+  gap: 64px;
+  margin: 111px 0 100px 0;
+
+  &__images {
+    display: flex;
+    gap: 40px;
+
+    .smallImagesContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .smallImage {
+      width: 120px;
+      height: 120px;
+      object-fit: contain;
+    }
+
+    .bigImage {
+      width: 540px;
+      height: 600px;
+      object-fit: contain;
+    }
+  }
+
+  &__details {
+    &__title {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 35px;
+      color: #000000;
+      margin-bottom: 24px;
+    }
+
+    &__price {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+      text-transform: capitalize;
+      color: #A18A68;
+      margin-bottom: 70px;
+    }
+
+    &__rating {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      margin-bottom: 18px;
+
+      .stars {
+        display: flex;
+        gap: 10px;
+
+        img {
+          width: 18px;
+          height: 18px;
+        }
+      }
+
+      .customerReview {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #707070;
+      }
+    }
+
+    &__description {
+      margin-bottom: 38px;
+
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #707070;
+      }
+    }
+
+    &__quantity {
+      display: flex;
+      gap: 23px;
+      margin-bottom: 50px;
+
+      .quantity {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #707070;
+        width: 102px;
+        height: 53px;
+        background: #EFEFEF;
+        border-radius: 4px;
+      }
+
+      .addToCart {
+        button {
+          width: 363px;
+          height: 53px;
+          background: #FFFFFF;
+          border: 1px solid #000000;
+          border-radius: 4px;
+          font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 21px;
+          color: #000000;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    &__socialIcons {
+      display: flex;
+      gap: 40px;
+      margin-bottom: 36px;
+
+      .icons {
+        display: flex;
+        gap: 40px;
+
+        .heart {
+          width: 19px;
+          height: 18px;
+        }
+
+        .line {
+          height: 18px;
+        }
+      }
+
+      .socialMedia {
+        display: flex;
+        gap: 24px;
+      }
+    }
+
+    &__sku {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 6px;
+
+      .title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #000000;
+      }
+
+      .quantity {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #707070;
+      }
+    }
+
+    &__categories {
+      display: flex;
+      gap: 16px;
+
+      .title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #000000;
+      }
+
+      .categoryName {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #707070;
+
+        &:first-letter {
+          text-transform: uppercase;
+        }
+      }
+
+    }
+  }
+}
+
+.additionalInfo {
+  margin-bottom: 96px;
+  &__titles {
+    display: flex;
+    gap: 96px;
+    padding-bottom: 34px;
+    border-bottom: 1px solid #D8D8D8;
+    margin-bottom: 39px;
+
+    h3 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+      color: #000000;
+    }
+
+    .deactivatedTitle {
+      color: #707070;
+    }
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #707070;
+  }
+}
+
+.similarItems {
+  margin-bottom: 250px;
+  .title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 47px;
+  }
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}

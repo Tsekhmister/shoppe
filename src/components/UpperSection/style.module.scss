@@ -1,0 +1,25 @@
+.upperSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 41px;
+
+  h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 43px;
+    color: #000000;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #A18A68;
+  }
+  p:hover {
+    cursor: pointer;
+  }
+}
