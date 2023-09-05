@@ -1,3 +1,3 @@
 # shoppe
 
-## Quickly made small test project using Redux-Saga
+## Quickly made a small test project using Redux-Saga
